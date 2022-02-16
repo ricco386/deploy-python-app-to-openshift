@@ -1,1 +1,0 @@
-# deploy-python-app-to-openshift
