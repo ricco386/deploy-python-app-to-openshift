@@ -2,9 +2,9 @@
 
 Úvod do práce s [OpenShiftom](https://www.redhat.com/en/technologies/cloud-computing/openshift).
 
-Projekt bol vytvorený ako [prezentácia]() na [27. stretnutie komunity Cloud Native – Kubernetes](https://community.cncf.io/events/details/cncf-bratislava-presents-27-stretnutie-komunity-cloud-native-kubernetes-online/) online.
+Projekt bol vytvorený ako [prezentácia](https://ricco386.github.io/nasad-python-appku-do-openshift/) na [27. stretnutie komunity Cloud Native – Kubernetes](https://community.cncf.io/events/details/cncf-bratislava-presents-27-stretnutie-komunity-cloud-native-kubernetes-online/) online, updatnutý a prezentovaný na [KCD (Kubernetes Community Days) 2022 Czech & Slovak virtual](https://community.cncf.io/events/details/cncf-kcd-czech-slovak-presents-kcd-kubernetes-community-days-2022-czech-slovak-virtual/). 
 
-Prednáška je určená pre ľudí, ktorí chcú nasadiť svoju webovú aplikáciu (nielen Python) do prostredia OpenShift. Ale tiež pre ľudí, ktorí administrujú webové aplikácie a radi by sa dozvedeli niečo viac o Pythonových web aplikáciach.
+Prednáška je určená pre ľudí, ktorí chcú nasadiť svoju webovú aplikáciu (nielen Python) do prostredia OpenShift. Ale tiež pre ľudí, ktorí administrujú webové aplikácie a radi by sa dozvedeli niečo viac o Pythonových web aplikáciach. Je to voľné pokračovanie mojej prezentácie [Začíname s Djangom](https://github.com/ricco386/zaciname-s-djangom).
 
 ### Abstrakt
 
@@ -12,11 +12,11 @@ Prednáška je určená pre ľudí, ktorí chcú nasadiť svoju webovú aplikác
 * Ako fungujú Python web aplikácie
 * Akým spôsobom sa dá nasadzovať do OpenShiftu
 
-V čase poslednej prednášky bola aktuálna verzia OpenShiftu 4.9, pričom na verziu 4.9 sa odkazujú linky v materiáli a na tejto verzii aj bol prezentovaný zdrojový kód v živých príkladoch.
+V čase poslednej prednášky bola aktuálna verzia OpenShiftu 4.10, pričom na verziu 4.10 sa odkazujú linky v materiáli a na tejto verzii aj bol prezentovaný zdrojový kód v živých príkladoch.
 
 ### Ako ďalej?
 
-Prednáška iba načrtla možnosti, ktoré OpenShift ponúka. Ak Vás zaujala a radi by ste sa dozvedeli viac o OpenShifte, oskúšať si nasadiť vlastnú aplikáciu do OpenShiftu a pridávať roznu funkcionalitu. Nezabudnite sa prísť pozriet na daľsie [CNCF](https://community.cncf.io/kcd-czech-slovak/), alebo [Python meetupy](https://python.sk/), kde môžete stretnúť ľudí čo sa venujú tejto problematike a obohatia Vás o ďalšie zaujímavosti. V neposlednom rade odporúčam nezabudnúť sa pozrieť aj na [oficálnu dokumentáciu](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.9).
+Prednáška iba načrtla možnosti, ktoré OpenShift ponúka. Ak Vás zaujala a radi by ste sa dozvedeli viac o OpenShifte, oskúšať si nasadiť vlastnú aplikáciu do OpenShiftu a pridávať rôznu funkcionalitu. Nezabudnite sa prísť pozriet na daľsie [CNCF](https://community.cncf.io/kcd-czech-slovak/), alebo [Python meetupy](https://python.sk/), kde môžete stretnúť ľudí čo sa venujú tejto problematike a obohatia Vás o ďalšie zaujímavosti. V neposlednom rade odporúčam nezabudnúť sa pozrieť aj na [oficálnu dokumentáciu](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.10).
 
 ### Licencia
 
