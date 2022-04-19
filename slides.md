@@ -1,8 +1,8 @@
-# #27 CNCF Meetup
-
-How to deploy Python app to OpenShift
+# How to deploy Python app to OpenShift
 
 Richard Kellner
+
+KCD (Kubernetes Community Days) 2022
 
 ---
 
@@ -15,7 +15,7 @@ Richard Kellner
 * PSF Fellow
 * More at [www.linkedin.com/in/richardkellner](https://www.linkedin.com/in/richardkellner)
 
-Note: Moje vlastne nazory nijako nepreviazane na zamestnavatela a nemam ziadne zavazky voci Red Hatu
+Note: V prezentácií sú moje vlastné názory a nie sú nijako previazané na môjho aktuálneho (alebo minulého) zamestnávateľa. Nemám žiadne záväzky voči Red Hatu, prednáška nie je sponzorované firmou Red Hat.
 
 ---
 
@@ -30,15 +30,15 @@ OKD embeds Kubernetes and extends it with security and other integrated concepts
 ![](https://cloud.redhat.com/hubfs/images/marketecture.png?t=1535557524001)
 
 Note:
-* Porovnanie s distribuciou Linuxu
-* OpenShift vs. OKD.io
-* Minishift (< 3.X ), Code Ready Containers (< 4.X)
+* Porovnanie OpenShiftu s distribúciou Linuxu (ako vysvetlenie oproti Kubernetes)
+* OpenShift vs. OKD.io (komerčná licencia vs. komunitný projekt)
+* Minishift (< 3.X ), Code Ready Containers (< 4.X), Red Hat trial.
 
 ---
 
 # Python web apps
 
-Let's create a sample Django app and deploy to OpenShift.
+Let's [create a sample Django app](https://github.com/ricco386/zaciname-s-djangom) and deploy to OpenShift.
 
 Any application that supports WSGI (ASGI), essentialy all popular framewroks...
 
@@ -46,15 +46,16 @@ Note:
 
 WSGI is implementation-neutral interface between web servers and web applications or frameworks to promote common ground for portable web application development.
 
-* Prakticka ukazka v terminaly, Spravit Django projekt
-* Project vs. app
-* virtual envs, compare to container
+* Praktická ukážka v terminály, ako spraviť Django projekt
+* Vysvetliť project vs. app
+* virtual envs, porovnať s kontajnerom, vysvetliť rozdiel
+* TODO: Odkaz na meetup!
 
 ---
 
 # How to deploy app in OpenShift
 
-1. Build the application from source code
+1. Build the application from source code via S2I
 2. Build the application from source code and a Dockerfile
 3. Build the application from a container image
 
